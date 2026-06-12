@@ -3,4 +3,3 @@
     remote = hostinger
 ['remote "hostinger"']
     url = ssh://u666137017@82.112.232.168:65002/home/u666137017/dvc-remote
-    keyfile = C:\Users\star\.ssh\mangodb_deploy
