@@ -1,0 +1,9 @@
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+python-multipart
+biopython>=1.83
+matplotlib>=3.8
+pandas>=2.1
+numpy>=1.26
+seaborn>=0.13
+python-dotenv

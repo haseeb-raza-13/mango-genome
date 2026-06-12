@@ -1,0 +1,42 @@
+# ── Original Streamlit source (superseded by mango-genome/) ──────────────────
+MangoDB/
+
+# ── Build artifacts / archives ────────────────────────────────────────────────
+mangodb-frontend.zip
+mango-genome/frontend/.next/
+mango-genome/frontend/out/
+
+# ── Dependencies ──────────────────────────────────────────────────────────────
+mango-genome/frontend/node_modules/
+mango-genome/backend/venv/
+
+# ── BLAST databases (large binaries — tracked by DVC) ─────────────────────────
+mango-genome/backend/db/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+mango-genome/backend/logs/
+mango-genome/frontend/logs/
+
+# ── Python bytecode ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+mango-genome/backend/.env
+mango-genome/frontend/.env.local
+# keep .env.example files
+!*.env.example
+
+# ── OS / editor noise ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ── DVC internal (committed by DVC itself, not manually) ──────────────────────
+# .dvc/cache is auto-ignored by dvc init
